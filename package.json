@@ -1,0 +1,31 @@
+{
+  "name": "lab--api-github-clone",
+  "version": "1.0.0",
+  "description": "AJAX xhr request github cloning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muktek/lab--api-github-clone.git"
+  },
+  "keywords": [
+    "superagent",
+    "github",
+    "api",
+    "clone",
+    "DOM"
+  ],
+  "author": "MiriamGaGu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/muktek/lab--api-github-clone/issues"
+  },
+  "homepage": "https://github.com/muktek/lab--api-github-clone#readme",
+  "dependencies": {
+    "director": "^1.2.8",
+    "sass": "^1.15.2",
+    "superagent": "^4.0.0"
+  }
+}
