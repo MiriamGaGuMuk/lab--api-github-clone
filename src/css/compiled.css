@@ -8,52 +8,55 @@
   padding: 5% 10%;
   display: flex; }
 
-.barNav {
+.navBar {
   display: flex;
-  background-color: #050505;
-  padding: 15px 0px 10px 0px;
-  color: white; }
-  .barNav__item {
-    margin-right: 15px;
+  background-color: #212122;
+  padding: 10px 0px 10px 0px;
+  width: 100%; }
+  .navBar__item {
+    margin-left: 15px;
     height: 35px;
-    line-height: 35px; }
-    .barNav__item .logo {
-      font-size: 35px; }
-    .barNav__item .textInput {
-      width: 200px;
-      height: 35px;
+    line-height: 35px;
+    color: #ededed;
+    font-size: 13px;
+    font-weight: bold; }
+    .navBar__item .logo {
+      font-size: 35px;
+      margin-left: 3%; }
+    .navBar__item .textInput {
+      width: 300px;
+      height: 30px;
       border: none;
       border-radius: 3px;
-      color: black;
+      color: #fcf5f5;
       background-color: #4d4d4d; }
-    .barNav__item .solicitud {
-      width: 70px;
-      height: 35px; }
-    .barNav__item .navLink {
+    .navBar__item .itemRight {
+      display: inline-block; }
+    .navBar__item .navLink {
       text-decoration: none;
-      color: white; }
+      color: #f8f2f2; }
 
-.profile__photo {
-  width: 200px;
-  border-radius: 5px;
-  margin-left: 15px; }
+.profile {
+  width: 50%; }
+  .profile__photo {
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 10px; }
+  .profile__name {
+    margin-bottom: 0px;
+    font-size: 20px; }
+  .profile__nickName {
+    color: #bfbfbf;
+    font-size: 13px;
+    margin-top: 0px;
+    margin-bottom: 20px; }
+  .profile__bio {
+    list-style-type: none;
+    font-size: 13px;
+    color: #949090; }
 
-.profile__name {
-  margin-bottom: 0px; }
-
-.profile__nickName {
-  color: #bfbfbf;
-  font-size: 16px;
-  margin-top: 0px;
-  margin-bottom: 20px; }
-
-.profile__bio {
-  list-style-type: none;
-  font-size: 13px;
-  color: #4d4d4d; }
-
-.containerright {
-  padding-left: 8%; }
+.rightContainer {
+  padding-left: 3%; }
 
 .repo {
   width: 150%;
@@ -81,10 +84,11 @@
 
 .follow__button {
   display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 50%;
   height: 35px;
-  margin-bottom: 10px;
-  border-color: #4d4d4d;
+  border-color: #8b8a8a;
   border-radius: 5px; }
 
 .follow__report {
@@ -92,5 +96,5 @@
   color: #ededed;
   font-size: 12px; }
 
-.bio_two {
-  color: black; }
+.bioTwo {
+  color: #000; }
