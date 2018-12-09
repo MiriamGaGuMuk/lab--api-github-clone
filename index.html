@@ -24,13 +24,22 @@
 
 
                 <div class="navBar__item">
-                    <input type="text" class="textInput" placeholder="Search or jump to...">
+                    <input type="text" class="textInput" placeholder="Search or jump to..."
+                    onclick="javascript: clear(this);" onBlur="javascript: verify(this);">
                 </div>
                 <!-- link of nav bar -->
                 <div class="navBar__item"><a href="#" class="navLink">Pull Request</a></div>
                 <div class="navBar__item"><a href="#" class="navLink">Issues</a></div>
                 <div class="navBar__item"><a href="#" class="navLink">Markplace</a></div>
                 <div class="navBar__item"><a href="#" class="navLink">Explorer</a></div>
+                <label for="nav" class="navIcons">
+                    <i class="fa fa-bell"></i>
+                    <i class="fa fa-plus"></i>
+                    <i class="fa fa-sort-down first"></i>
+                    <div class="navBar__item"><img class="profilePic" src="https://avatars1.githubusercontent.com/u/44781996?v=4" alt=""></div>
+                    <i class="fa fa-sort-down"></i>
+                </label>
+                
             </div>
         </nav>
     </section>
@@ -64,7 +73,7 @@
                 </div>
             </div>
 
-
+            <!-- Repos info -->
             <div class="rightContainer">
 
             </div>

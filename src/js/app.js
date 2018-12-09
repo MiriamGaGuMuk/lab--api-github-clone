@@ -13,6 +13,7 @@ let email = document.querySelector('.email')
 let blog = document.querySelector('.blog')
 let container = document.querySelector('.rightContainer')
 let input = document.querySelector('.textInput')
+let profilePic = document.querySelector('.profilePic')
 
 let repos = "";
 
@@ -28,6 +29,17 @@ input.addEventListener("keypress", function(e){
 })
 // console.log(input.value)
 
+  //Clean Input
+//   function clear(element){
+//    let cleaning =  element.value = "";
+//    console.log(cleaning)
+// }
+
+// function verify(element){
+// if(element.value = "")
+// element.value = "Search or jump to...";
+// }
+
 const url = 'https://api.github.com/users/MiriamGaGuMuk'
 
 request
@@ -36,6 +48,7 @@ request
         console.log(data);
 
         //console.log(data.body)
+        profilePic = data.body.avatar_url
         name.textContent = data.body.login
         imageAvatar.src = data.body.avatar_url
         nick.textContent = data.body.name
@@ -114,5 +127,4 @@ request
 
     }
     
-    
-    
+  
